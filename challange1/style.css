@@ -1,0 +1,64 @@
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.profil-karti {
+    background-color: #1f1f1f;
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profil-karti img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.profil-karti h1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.profil-karti h3 {
+    color: #c4f82a;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 25px;
+}
+
+.profil-karti p {
+    font-size: 14px;
+    margin: 0 0 25px;
+}
+
+.profil-karti ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profil-karti ul li a {
+    display: block;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.profil-karti ul li a:hover {
+    background-color: #c4f82a;
+    color: #141414;
+}
