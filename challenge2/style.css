@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Figtree';
+  
+  
+  src: url('fonts/static/Figtree-Medium.ttf') format('truetype');
+  font-weight: 500; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Figtree';
+
+  /* Yolu ve formatı .ttf için güncelledik */
+  src: url('fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+  font-weight: 800; 
+  font-style: normal;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #f4d04e;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.kart {
+    background-color: #ffffff;
+    width: 350px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0 #000000;
+}
+
+.kart-resmi {
+    width: 90%;
+    display: block;
+    border-radius: 15px;
+    margin: 20px auto 0; 
+}
+
+.kart-icerik {
+    padding: 20px;
+}
+
+.kategori {
+    background-color: #f4d04e;
+    color: #000000;
+    font-weight: 800;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.tarih {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.baslik {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+}
+
+.aciklama {
+    font-size: 16px;
+    color: #808080;
+}
+
+.yazar-bolumu {
+    display: flex;
+    align-items: center;
+}
+
+.yazar-resmi {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.yazar-adi {
+    margin-left: 12px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.baslik:hover {
+    color: #f4d04e;
+    cursor: pointer;
+}
