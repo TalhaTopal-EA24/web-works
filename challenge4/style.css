@@ -1,0 +1,126 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #0d192b;
+    color: #8bacda;
+    font-size: 16px;
+    font-weight: 300;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.kart {
+    background-color: #14253d;
+    width: 320px;
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.resim-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.ana-resim{
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.resim-overlay {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 255, 247, 0.4);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.resim-container:hover .resim-overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.baslik {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    transition: color 0.3s ease;
+}
+
+.baslik:hover {
+    color: #00fff7;
+    cursor: pointer;
+}
+
+.aciklama {
+    margin: 0 0 20px 0;
+    line-height: 1.6;
+}
+
+.bilgi-satiri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth-bilgi, .zaman-bilgi{
+    display: flex;
+    align-items: center;
+}
+
+.eth-bilgi img, .zaman-bilgi img {
+    margin-right: 7px;
+}
+
+.eth-bilgi span {
+    color: #00fff7;
+    font-weight: 600;
+}
+
+.cizgi {
+    border: none;
+    height: 1px;
+    background-color: #2f415b;
+    margin: 20px 0 20px;
+}
+
+.yaratici-bolumu {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-right: 15px;
+}
+
+.yaratici-metin {
+    margin: 0;
+    color: #8bacda;
+}
+.yaratici-isim {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.yaratici-isim:hover {
+    color: #00fff7;
+    cursor: pointer;
+}
