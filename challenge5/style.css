@@ -1,0 +1,108 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #e0e8ff;
+
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+
+    color: #7280a7;
+    font-size: 16px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #1f2f56;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0 0 20px 0;
+} 
+
+.card {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 25px 30px rgba(56, 41, 224, 0.1);
+    background-color: #ffffff;
+
+    overflow: hidden;
+} 
+
+.card-image {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 40px;
+    text-align: center;
+}
+
+.plan-box {
+    display: flex;
+    align-items: center;
+
+    background-color: #f7f9ff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.music-icon{
+    margin-right: 20px;
+}
+
+.plan-detail {
+    text-align: left;
+}
+
+.plan-detail strong {
+    color: #1f2f56;
+    font-weight: 900;
+}
+
+.change-link {
+    margin-left: right;
+    color: #3829e0;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.change-link:hover {
+    columns: #766cf1;
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 15px;
+    transition: all 0.3s ease;   
+}
+
+.btn-proceed {
+    background-color: #3829e0;
+    color: #ffffff;
+    margin-bottom: 25px;
+    box-shadow: 0px 15px 20px rgba(56, 41, 224, 0.3);
+}
+.btn-cancel {
+    color: #7280a7; 
+}
+
+.btn-cancel:hover {
+    color: #1f2f56; 
+}
